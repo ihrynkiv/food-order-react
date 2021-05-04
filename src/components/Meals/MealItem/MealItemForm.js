@@ -1,7 +1,7 @@
 import Input from '../../UI/Input';
 import classes from './MealItemForm.module.scss';
 
-const MealItemForm = (props) => {
+const MealItemForm = props => {
   return (
     <form className={classes.form}>
       <Input
