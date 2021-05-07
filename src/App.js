@@ -7,11 +7,12 @@ function App() {
   const [cartIsShown, setCartIsShown] = useState(false);
 
   const showCartHandler = () => {
-    console.log('click');
+    document.body.style.overflow = 'hidden';
     setCartIsShown(true);
   };
 
   const hideCartHandler = () => {
+    document.body.style.overflow = 'visible';
     setCartIsShown(false);
   };
 
